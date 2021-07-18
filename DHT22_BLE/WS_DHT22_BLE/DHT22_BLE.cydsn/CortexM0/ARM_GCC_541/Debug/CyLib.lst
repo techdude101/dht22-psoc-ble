@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
   51              	CySysTickInitVar:
   52 0014 00000000 		.space	4
   53              		.global	cyImoFreqMhz2Reg
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 2
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 2
 
 
   54              		.section	.rodata
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  108              		.type	CySysClkPumpConfig, %object
  109              		.size	CySysClkPumpConfig, 4
  110              	CySysClkPumpConfig:
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 3
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 3
 
 
  111 0010 01000000 		.word	1
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
   45:Generated_Source\PSoC4/CyLib.c **** * initialized to 0 and set to 1 the first time CySysTickStart() is called.
   46:Generated_Source\PSoC4/CyLib.c **** *
   47:Generated_Source\PSoC4/CyLib.c **** * This allows the component to restart without reinitialization after the first
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 4
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 4
 
 
   48:Generated_Source\PSoC4/CyLib.c **** * call to the CySysTickStart() routine.
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  102:Generated_Source\PSoC4/CyLib.c **** * in the Design Wide Resources tab.
  103:Generated_Source\PSoC4/CyLib.c **** *
  104:Generated_Source\PSoC4/CyLib.c **** *******************************************************************************/
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 5
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 5
 
 
  105:Generated_Source\PSoC4/CyLib.c **** void CySysClkImoStart(void)
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  157              	CySysClkImoStop:
  158              	.LFB3:
  123:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 6
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 6
 
 
  124:Generated_Source\PSoC4/CyLib.c **** 
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  187              		.size	CySysClkImoStop, .-CySysClkImoStop
  188              		.section	.text.CySysClkWriteHfclkDirect,"ax",%progbits
  189              		.align	2
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 7
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 7
 
 
  190              		.global	CySysClkWriteHfclkDirect
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  198:Generated_Source\PSoC4/CyLib.c ****             #if(CY_IP_SRSSV2)
  199:Generated_Source\PSoC4/CyLib.c ****                 freq = CY_SYS_CLK_IMO_MIN_FREQ_MHZ;
  200:Generated_Source\PSoC4/CyLib.c ****                 for(i = 0u; i < CY_SYS_CLK_IMO_FREQ_TABLE_SIZE; i++)
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 8
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 8
 
 
  201:Generated_Source\PSoC4/CyLib.c ****                 {
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  255:Generated_Source\PSoC4/CyLib.c ****                 lfLimit += CY_SYS_CLK_WCO_CONFIG_DPLL_LF_LIMIT_STEP;
  256:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_WCO_DPLL_REG = (regTmp | (lfLimit << CY_SYS_CLK_WCO_CONFIG_DPLL_LF_LIMIT
  257:Generated_Source\PSoC4/CyLib.c ****             }
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 9
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 9
 
 
  258:Generated_Source\PSoC4/CyLib.c **** 
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  312:Generated_Source\PSoC4/CyLib.c ****             #endif  /* (CY_IP_SRSSLT) */
  313:Generated_Source\PSoC4/CyLib.c **** 
  314:Generated_Source\PSoC4/CyLib.c ****         #endif  /* (CY_IP_SRSSV2) */
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 10
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 10
 
 
  315:Generated_Source\PSoC4/CyLib.c **** 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  369:Generated_Source\PSoC4/CyLib.c ****         #if (CY_IP_IMO_TRIMMABLE_BY_WCO && CY_IP_IMO_TRIMMABLE_BY_USB)
  370:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_OSCINTF_CTL_REG = (CY_SYS_CLK_OSCINTF_CTL_REG & (uint32) ~CY_SYS_CLK_OSCINTF
  371:Generated_Source\PSoC4/CyLib.c ****                                           CY_SYS_CLK_OSCINTF_CTL_PORT_SEL_USB;
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 11
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 11
 
 
  372:Generated_Source\PSoC4/CyLib.c ****         #endif /* (CY_IP_IMO_TRIMMABLE_BY_WCO && CY_IP_IMO_TRIMMABLE_BY_USB) */
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  426:Generated_Source\PSoC4/CyLib.c ****             CY_PWR_BG_TRIM5_REG = CySysClkImoTrim5;
  427:Generated_Source\PSoC4/CyLib.c **** 
  428:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_IMO_TRIM1_REG = CY_SFLASH_IMO_TRIM_REG(freq - CY_SYS_CLK_IMO_FREQ_TABLE_OFFS
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 12
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 12
 
 
  429:Generated_Source\PSoC4/CyLib.c **** 
@@ -718,7 +718,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  483:Generated_Source\PSoC4/CyLib.c ****     * Updates IMO trim registers based on the IMO frequency and test program
  484:Generated_Source\PSoC4/CyLib.c ****     * revision.
  485:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 13
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 13
 
 
  486:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  540:Generated_Source\PSoC4/CyLib.c **** 
  541:Generated_Source\PSoC4/CyLib.c ****             /* Set IMO Gain in IMO Trim Register 4 */
  542:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_IMO_TRIM4_REG = (CY_SYS_CLK_IMO_TRIM4_REG & (uint32) ~CY_SYS_CLK_IMO_TRIM4_G
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 14
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 14
 
 
  543:Generated_Source\PSoC4/CyLib.c ****                                         CY_SFLASH_USBMODE_IMO_GAIN_TRIM_REG;
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  207 0004 00AF     		add	r7, sp, #0
  208              		.cfi_def_cfa_register 7
  209 0006 7860     		str	r0, [r7, #4]
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 15
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 15
 
 
  586:Generated_Source\PSoC4/CyLib.c ****     uint8  interruptState;
@@ -898,7 +898,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  628:Generated_Source\PSoC4/CyLib.c **** #if (CY_IP_SRSSV2 && CY_IP_PLL)
  629:Generated_Source\PSoC4/CyLib.c ****     if ((CY_SYS_CLK_HFCLK_PLL0 == clkSelect) || (CY_SYS_CLK_HFCLK_PLL1 == clkSelect))
  630:Generated_Source\PSoC4/CyLib.c ****     {
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 16
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 16
 
 
  631:Generated_Source\PSoC4/CyLib.c ****         tmpReg |= (clkSelect & CY_SYS_CLK_SELECT_HFCLK_SEL_MASK);
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  647:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
  648:Generated_Source\PSoC4/CyLib.c **** *
  649:Generated_Source\PSoC4/CyLib.c **** * Enables / disables the pump clock.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 17
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 17
 
 
  650:Generated_Source\PSoC4/CyLib.c **** *
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  677:Generated_Source\PSoC4/CyLib.c ****             CY_SYS_CLK_SELECT_REG |= (CySysClkPumpConfig << CY_SYS_CLK_SELECT_PUMP_SEL_SHIFT);
  678:Generated_Source\PSoC4/CyLib.c ****         }
  679:Generated_Source\PSoC4/CyLib.c ****         else
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 18
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 18
 
 
  680:Generated_Source\PSoC4/CyLib.c ****         {
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  690:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysClkGetSysclkSource
  691:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
  692:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 19
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 19
 
 
  693:Generated_Source\PSoC4/CyLib.c **** * Returns the source of the System clock.
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  353              		.loc 1 722 0
  354 001a FB1D     		adds	r3, r7, #7
  355 001c 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 20
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 20
 
 
  356 001e 1800     		movs	r0, r3
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  752:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV8        SYSCLK = HFCLK / 8
  753:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV16       SYSCLK = HFCLK / 16  (N/A for 4000 Family)
  754:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV32       SYSCLK = HFCLK / 32  (N/A for 4000 Family)
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 21
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 21
 
 
  755:Generated_Source\PSoC4/CyLib.c **** *  CY_SYS_CLK_SYSCLK_DIV64       SYSCLK = HFCLK / 64  (N/A for 4000 Family)
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  417              		.loc 1 770 0
  418 002c 0F23     		movs	r3, #15
  419 002e FB18     		adds	r3, r7, r3
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 22
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 22
 
 
  420 0030 1B78     		ldrb	r3, [r3]
@@ -1318,7 +1318,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  800:Generated_Source\PSoC4/CyLib.c **** * \ref CySysFlashSetWaitCycles() with the appropriate parameter to adjust the
  801:Generated_Source\PSoC4/CyLib.c **** * number of clock cycles the cache will wait before sampling data comes back
  802:Generated_Source\PSoC4/CyLib.c **** * from Flash. If the SYSCLK clock frequency decreases, you can call
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 23
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 23
 
 
  803:Generated_Source\PSoC4/CyLib.c **** * \ref CySysFlashSetWaitCycles() to improve the CPU performance. See
@@ -1378,7 +1378,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  461 000a FC18     		adds	r4, r7, r3
  462 000c FFF7FEFF 		bl	CyEnterCriticalSection
  463 0010 0300     		movs	r3, r0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 24
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 24
 
 
  464 0012 2370     		strb	r3, [r4]
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  482 0030 1A00     		movs	r2, r3
  483 0032 0C23     		movs	r3, #12
  484 0034 FB18     		adds	r3, r7, r3
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 25
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 25
 
 
  485 0036 9A60     		str	r2, [r3, #8]
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  901:Generated_Source\PSoC4/CyLib.c ****             }
  902:Generated_Source\PSoC4/CyLib.c ****             else if(freq <= CY_SFLASH_IMO_MAXF2_REG)
  903:Generated_Source\PSoC4/CyLib.c ****             {
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 26
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 26
 
 
  904:Generated_Source\PSoC4/CyLib.c ****                 bgTrim4 = CY_SFLASH_IMO_ABS2_REG;
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  958:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_IMO_TRIM2_REG = cyImoFreqMhz2Reg[freq - CY_SYS_CLK_IMO_FREQ_TABLE_OFFSET
  959:Generated_Source\PSoC4/CyLib.c ****                 CyDelayCycles(CY_SYS_CLK_IMO_FREQ_TIMEOUT_CYCLES);
  960:Generated_Source\PSoC4/CyLib.c ****             }
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 27
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 27
 
 
  961:Generated_Source\PSoC4/CyLib.c **** 
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  531 0080 00010B40 		.word	1074462976
  532 0084 00000000 		.word	cyImoFreqMhz2Reg
  533 0088 30001040 		.word	1074790448
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 28
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 28
 
 
  534 008c B6EA0000 		.word	60086
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1038:Generated_Source\PSoC4/CyLib.c ****                     if(0u != CySysClkImoGetUsbLock())
 1039:Generated_Source\PSoC4/CyLib.c ****                     {
 1040:Generated_Source\PSoC4/CyLib.c ****                 #endif  /* (CYDEV_IMO_TRIMMED_BY_USB == 0u) */
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 29
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 29
 
 
 1041:Generated_Source\PSoC4/CyLib.c **** 
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1095:Generated_Source\PSoC4/CyLib.c ****                 /* Make small step to final frequency */
 1096:Generated_Source\PSoC4/CyLib.c ****                 /* Select nearby intermediate frequency */
 1097:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_CLK_IMO_SELECT_REG = (CY_SYS_CLK_IMO_SELECT_REG & ((uint32) ~CY_SYS_CLK_IMO_
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 30
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 30
 
 
 1098:Generated_Source\PSoC4/CyLib.c ****                     (((freq - CY_SYS_CLK_IMO_MIN_FREQ_MHZ) >> 2u) & CY_SYS_CLK_IMO_SELECT_FREQ_MASK
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1152:Generated_Source\PSoC4/CyLib.c ****     * \param \ref CY_SYS_CLK_HFCLK_DIV_8        Divide selected clock source by 8
 1153:Generated_Source\PSoC4/CyLib.c ****     *
 1154:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 31
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 31
 
 
 1155:Generated_Source\PSoC4/CyLib.c ****     void CySysClkWriteHfclkDiv(uint32 divider)
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  555              		.cfi_offset 7, -8
  556              		.cfi_offset 14, -4
  557 0002 84B0     		sub	sp, sp, #16
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 32
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 32
 
 
  558              		.cfi_def_cfa_offset 24
@@ -1918,7 +1918,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1231:Generated_Source\PSoC4/CyLib.c ****                 regConfig = CY_SYS_RCB_CTRL_REG;
 1232:Generated_Source\PSoC4/CyLib.c ****                 regConfig &= CY_SYS_RCB_CTRL_CLEAR;
 1233:Generated_Source\PSoC4/CyLib.c ****                 regConfig |= CY_SYS_RCB_CTRL_INIT;
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 33
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 33
 
 
 1234:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_RCB_CTRL_REG = regConfig;
@@ -1978,7 +1978,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1288:Generated_Source\PSoC4/CyLib.c ****                 /* Send write commands to RBUS */
 1289:Generated_Source\PSoC4/CyLib.c ****                 CY_SYS_RCB_TX_FIFO_WR_REG = (CY_SYS_RCB_RBUS_RF_DCXO_CFG_SET | regConfig | CY_SYS_R
 1290:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 34
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 34
 
 
 1291:Generated_Source\PSoC4/CyLib.c ****                 while (0u == (CY_SYS_RCB_INTR_RCB_DONE & CY_SYS_RCB_INTR_REG))
@@ -2038,7 +2038,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1325:Generated_Source\PSoC4/CyLib.c ****                     break;
  604              		.loc 1 1325 0
  605 004a 05E0     		b	.L27
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 35
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 35
 
 
  606              	.L29:
@@ -2098,7 +2098,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1341:Generated_Source\PSoC4/CyLib.c ****     * If ECO is disabled when it is sourcing HFCLK, the CPU will halt. In addition,
 1342:Generated_Source\PSoC4/CyLib.c ****     * for PSoC 4100 BLE / PSoC 4200 BLE devices, the BLE sub-system will stop
 1343:Generated_Source\PSoC4/CyLib.c ****     * functioning.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 36
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 36
 
 
 1344:Generated_Source\PSoC4/CyLib.c ****     *
@@ -2158,7 +2158,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  681              		.section	.text.CySysClkEcoReadStatus,"ax",%progbits
  682              		.align	2
  683              		.global	CySysClkEcoReadStatus
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 37
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 37
 
 
  684              		.code	16
@@ -2218,7 +2218,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1391:Generated_Source\PSoC4/CyLib.c ****                             (CY_SYS_BLESS_MT_STATUS_SWITCH_EN  == returnValue) ||
 1392:Generated_Source\PSoC4/CyLib.c ****                             (CY_SYS_BLESS_MT_STATUS_ACTIVE  ==  returnValue) ||
 1393:Generated_Source\PSoC4/CyLib.c ****                             (CY_SYS_BLESS_MT_STATUS_ISOLATE == returnValue));
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 38
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 38
 
 
 1394:Generated_Source\PSoC4/CyLib.c ****         #else
@@ -2278,7 +2278,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1425:Generated_Source\PSoC4/CyLib.c ****         * - \ref CY_SYS_CLK_ECO_DIV8
 1426:Generated_Source\PSoC4/CyLib.c ****         *
 1427:Generated_Source\PSoC4/CyLib.c ****         *******************************************************************************/
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 39
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 39
 
 
 1428:Generated_Source\PSoC4/CyLib.c ****         void CySysClkWriteEcoDiv(uint32 divider)
@@ -2338,7 +2338,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  771 0034 0F23     		movs	r3, #15
  772 0036 FB18     		adds	r3, r7, r3
  773 0038 1B78     		ldrb	r3, [r3]
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 40
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 40
 
 
  774 003a 1800     		movs	r0, r3
@@ -2398,7 +2398,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1462:Generated_Source\PSoC4/CyLib.c ****         *
 1463:Generated_Source\PSoC4/CyLib.c ****         * Amplitude trim - This bit field is to set the crystal drive level when
 1464:Generated_Source\PSoC4/CyLib.c ****         * ECO_CONFIG.AGC_EN = 1. WARNING: use care when setting this field because
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 41
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 41
 
 
 1465:Generated_Source\PSoC4/CyLib.c ****         * driving a crystal beyond its rated limit can permanently damage the crystal.
@@ -2458,7 +2458,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1519:Generated_Source\PSoC4/CyLib.c ****             uint8  interruptState;
 1520:Generated_Source\PSoC4/CyLib.c ****             uint32 regTmp;
 1521:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 42
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 42
 
 
 1522:Generated_Source\PSoC4/CyLib.c ****             interruptState = CyEnterCriticalSection();
@@ -2518,7 +2518,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1576:Generated_Source\PSoC4/CyLib.c ****             uint32 rTrim;
 1577:Generated_Source\PSoC4/CyLib.c ****             uint32 gTrim;
 1578:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 43
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 43
 
 
 1579:Generated_Source\PSoC4/CyLib.c ****             uint32 gmMin;
@@ -2578,7 +2578,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1633:Generated_Source\PSoC4/CyLib.c ****                     gTrim = 0u;
 1634:Generated_Source\PSoC4/CyLib.c ****                 }
 1635:Generated_Source\PSoC4/CyLib.c ****                 else if (gmMin > 1u)
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 44
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 44
 
 
 1636:Generated_Source\PSoC4/CyLib.c ****                 {
@@ -2638,7 +2638,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1690:Generated_Source\PSoC4/CyLib.c **** #if (CY_IP_PLL)
 1691:Generated_Source\PSoC4/CyLib.c ****     /*******************************************************************************
 1692:Generated_Source\PSoC4/CyLib.c ****     * Function Name: CySysClkPllStart
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 45
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 45
 
 
 1693:Generated_Source\PSoC4/CyLib.c ****     ****************************************************************************//**
@@ -2698,7 +2698,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1747:Generated_Source\PSoC4/CyLib.c **** 
 1748:Generated_Source\PSoC4/CyLib.c ****                 while(0u != counts)
 1749:Generated_Source\PSoC4/CyLib.c ****                 {
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 46
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 46
 
 
 1750:Generated_Source\PSoC4/CyLib.c **** 
@@ -2758,7 +2758,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1804:Generated_Source\PSoC4/CyLib.c **** 
 1805:Generated_Source\PSoC4/CyLib.c ****         return (returnStatus);
 1806:Generated_Source\PSoC4/CyLib.c ****     }
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 47
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 47
 
 
 1807:Generated_Source\PSoC4/CyLib.c **** 
@@ -2818,7 +2818,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1861:Generated_Source\PSoC4/CyLib.c ****     * of 67 MHz or less, and 3 uA for higher output frequencies. The default
 1862:Generated_Source\PSoC4/CyLib.c ****     * value is 2 uA.
 1863:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 48
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 48
 
 
 1864:Generated_Source\PSoC4/CyLib.c ****     * \return CYRET_SUCCESS Completed successfully.
@@ -2878,7 +2878,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1918:Generated_Source\PSoC4/CyLib.c ****     * CySysFlashSetWaitCycles() for more information.
 1919:Generated_Source\PSoC4/CyLib.c ****     *
 1920:Generated_Source\PSoC4/CyLib.c ****     * This API is available only for PSoC 4200L / 4100S / 4500 swith PLL devices.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 49
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 49
 
 
 1921:Generated_Source\PSoC4/CyLib.c ****     *
@@ -2938,7 +2938,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 1975:Generated_Source\PSoC4/CyLib.c ****         returnValue = CY_SYS_CLK_PLL_BASE.pll[pll].config & CY_SYS_CLK_PLL_CONFIG_BYPASS_SEL_MASK;
 1976:Generated_Source\PSoC4/CyLib.c ****         returnValue =  returnValue >> CY_SYS_CLK_PLL_CONFIG_BYPASS_SEL_SHIFT;
 1977:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 50
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 50
 
 
 1978:Generated_Source\PSoC4/CyLib.c ****         CyExitCriticalSection(interruptState);
@@ -2998,7 +2998,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2032:Generated_Source\PSoC4/CyLib.c ****     *
 2033:Generated_Source\PSoC4/CyLib.c ****     *  This API is available only for PSoC 4200L / 4100S / 4500 with PLL devices.
 2034:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 51
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 51
 
 
 2035:Generated_Source\PSoC4/CyLib.c ****     *  \param PLL:
@@ -3058,7 +3058,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2089:Generated_Source\PSoC4/CyLib.c ****     *
 2090:Generated_Source\PSoC4/CyLib.c ****     * \return CYRET_BAD_PARAM The PLL was not able to successfully configure for the
 2091:Generated_Source\PSoC4/CyLib.c ****     * requested frequency.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 52
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 52
 
 
 2092:Generated_Source\PSoC4/CyLib.c ****     *
@@ -3118,7 +3118,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2146:Generated_Source\PSoC4/CyLib.c ****                     {
 2147:Generated_Source\PSoC4/CyLib.c ****                         qVal = q;
 2148:Generated_Source\PSoC4/CyLib.c ****                         pVal = p;
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 53
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 53
 
 
 2149:Generated_Source\PSoC4/CyLib.c ****                         break;
@@ -3178,7 +3178,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2203:Generated_Source\PSoC4/CyLib.c **** 
 2204:Generated_Source\PSoC4/CyLib.c ****         if (pll < CY_IP_PLL_NR)
 2205:Generated_Source\PSoC4/CyLib.c ****         {
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 54
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 54
 
 
 2206:Generated_Source\PSoC4/CyLib.c ****             #if(CY_IP_SRSSV2)
@@ -3238,7 +3238,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2260:Generated_Source\PSoC4/CyLib.c ****     *
 2261:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
 2262:Generated_Source\PSoC4/CyLib.c ****     cystatus CySysClkPllSetOutputDivider(uint32 pll, uint32 divider)
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 55
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 55
 
 
 2263:Generated_Source\PSoC4/CyLib.c ****     {
@@ -3298,7 +3298,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2317:Generated_Source\PSoC4/CyLib.c ****         *  Returns a non-zero value that reflects the interrupt request registers.
 2318:Generated_Source\PSoC4/CyLib.c ****         *
 2319:Generated_Source\PSoC4/CyLib.c ****         *  This API is available only for PSoC 4500 with PLL devices.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 56
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 56
 
 
 2320:Generated_Source\PSoC4/CyLib.c ****         *
@@ -3358,7 +3358,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2374:Generated_Source\PSoC4/CyLib.c **** 
 2375:Generated_Source\PSoC4/CyLib.c ****         /*******************************************************************************
 2376:Generated_Source\PSoC4/CyLib.c ****         * Function Name: CySysClkPllGetInterruptMask
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 57
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 57
 
 
 2377:Generated_Source\PSoC4/CyLib.c ****         ****************************************************************************//**
@@ -3418,7 +3418,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2431:Generated_Source\PSoC4/CyLib.c ****         /*******************************************************************************
 2432:Generated_Source\PSoC4/CyLib.c ****         * Function Name: CySysClkPllCsvDisable
 2433:Generated_Source\PSoC4/CyLib.c ****         ****************************************************************************//**
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 58
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 58
 
 
 2434:Generated_Source\PSoC4/CyLib.c ****         *
@@ -3478,7 +3478,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2488:Generated_Source\PSoC4/CyLib.c ****         * \param upper:
 2489:Generated_Source\PSoC4/CyLib.c ****         *  Sets the upper limit -1, in reference clock cycles, before (or same time)
 2490:Generated_Source\PSoC4/CyLib.c ****         *  the next monitored clock event must happen.  If a monitored clock event
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 59
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 59
 
 
 2491:Generated_Source\PSoC4/CyLib.c ****         *  does not happen before this limit is reached, or does not happen at all
@@ -3538,7 +3538,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2545:Generated_Source\PSoC4/CyLib.c **** 
 2546:Generated_Source\PSoC4/CyLib.c **** 
 2547:Generated_Source\PSoC4/CyLib.c ****         /*******************************************************************************
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 60
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 60
 
 
 2548:Generated_Source\PSoC4/CyLib.c ****         * Function Name: CySysClkPllCsvGetPeriod
@@ -3598,7 +3598,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2602:Generated_Source\PSoC4/CyLib.c ****             CY_CLEAR_REG32_FIELD(CYREG_EXCO_RSTDLY_CTL, CYFLD_EXCO_EN);
 2603:Generated_Source\PSoC4/CyLib.c ****         }
 2604:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 61
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 61
 
 
 2605:Generated_Source\PSoC4/CyLib.c **** 
@@ -3658,7 +3658,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2659:Generated_Source\PSoC4/CyLib.c ****     *    CY_LVD_THRESHOLD_4_50_V       4.5000 V
 2660:Generated_Source\PSoC4/CyLib.c ****     *
 2661:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 62
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 62
 
 
 2662:Generated_Source\PSoC4/CyLib.c ****     void CySysLvdEnable(uint32 threshold)
@@ -3718,7 +3718,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2673:Generated_Source\PSoC4/CyLib.c **** 
 2674:Generated_Source\PSoC4/CyLib.c ****         /* Wait for the circuit to stabilize */
 2675:Generated_Source\PSoC4/CyLib.c ****         CyDelayUs(CY_LVD_STABILIZE_TIMEOUT_US);
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 63
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 63
 
 
  847              		.loc 1 2675 0
@@ -3778,7 +3778,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  883              		.loc 1 2693 0
  884              		.cfi_startproc
  885              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 64
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 64
 
 
  886              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -3838,7 +3838,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2706:Generated_Source\PSoC4/CyLib.c ****     *  Interrupt request value:
 2707:Generated_Source\PSoC4/CyLib.c ****     *    CY_SYS_LVD_INT - Indicates an Low Voltage Detect interrupt
 2708:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 65
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 65
 
 
 2709:Generated_Source\PSoC4/CyLib.c ****     *******************************************************************************/
@@ -3898,7 +3898,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  963              		.loc 1 2727 0
  964              		.cfi_startproc
  965              		@ args = 0, pretend = 0, frame = 0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 66
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 66
 
 
  966              		@ frame_needed = 1, uses_anonymous_args = 0
@@ -3958,7 +3958,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2751:Generated_Source\PSoC4/CyLib.c **** *******************************************************************************/
 2752:Generated_Source\PSoC4/CyLib.c **** uint32 CySysGetResetReason(uint32 reason)
 2753:Generated_Source\PSoC4/CyLib.c **** {
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 67
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 67
 
 
  997              		.loc 1 2753 0
@@ -4018,7 +4018,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1042              		.global	CyDisableInts
  1043              		.code	16
  1044              		.thumb_func
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 68
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 68
 
 
  1045              		.type	CyDisableInts, %function
@@ -4078,7 +4078,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1075              		@ sp needed
  1076 001c 80BD     		pop	{r7, pc}
  1077              	.L67:
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 69
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 69
 
 
  1078 001e C046     		.align	2
@@ -4138,7 +4138,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1117              	.L69:
  1118 0018 00E100E0 		.word	-536813312
  1119              		.cfi_endproc
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 70
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 70
 
 
  1120              	.LFE19:
@@ -4198,7 +4198,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1149 0012 FB60     		str	r3, [r7, #12]
 2827:Generated_Source\PSoC4/CyLib.c **** 
 2828:Generated_Source\PSoC4/CyLib.c ****     CYASSERT(number < CY_INT_IRQ_BASE);
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 71
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 71
 
 
  1150              		.loc 1 2828 0
@@ -4258,7 +4258,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2839:Generated_Source\PSoC4/CyLib.c **** 
 2840:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
 2841:Generated_Source\PSoC4/CyLib.c **** * Function Name: CyIntGetSysVector
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 72
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 72
 
 
 2842:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
@@ -4318,7 +4318,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1226 0026 FA68     		ldr	r2, [r7, #12]
  1227 0028 D318     		adds	r3, r2, r3
  1228 002a 1B68     		ldr	r3, [r3]
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 73
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 73
 
 
 2864:Generated_Source\PSoC4/CyLib.c **** }
@@ -4378,7 +4378,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1264 0010 9B05     		lsls	r3, r3, #22
  1265 0012 FB60     		str	r3, [r7, #12]
 2883:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 74
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 74
 
 
 2884:Generated_Source\PSoC4/CyLib.c ****     CYASSERT(number < CY_NUM_INTERRUPTS);
@@ -4438,7 +4438,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1310              	CyIntGetVector:
  1311              	.LFB23:
 2894:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 75
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 75
 
 
 2895:Generated_Source\PSoC4/CyLib.c **** 
@@ -4498,7 +4498,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1347 002c 1B68     		ldr	r3, [r3]
 2914:Generated_Source\PSoC4/CyLib.c **** }
  1348              		.loc 1 2914 0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 76
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 76
 
 
  1349 002e 1800     		movs	r0, r3
@@ -4558,7 +4558,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1385 0012 BB1D     		adds	r3, r7, #6
  1386 0014 1B78     		ldrb	r3, [r3]
  1387 0016 032B     		cmp	r3, #3
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 77
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 77
 
 
  1388 0018 02D9     		bls	.L84
@@ -4618,7 +4618,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1434 0068 1340     		ands	r3, r2
  1435 006a FB60     		str	r3, [r7, #12]
 2941:Generated_Source\PSoC4/CyLib.c ****     value |= ((uint32)priority << shift);
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 78
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 78
 
 
  1436              		.loc 1 2941 0
@@ -4678,7 +4678,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 2949:Generated_Source\PSoC4/CyLib.c **** * Function Name: CyIntGetPriority
 2950:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
 2951:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 79
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 79
 
 
 2952:Generated_Source\PSoC4/CyLib.c **** *  Gets the priority of the interrupt.
@@ -4738,7 +4738,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1522 0036 0633     		adds	r3, r3, #6
  1523 0038 DA40     		lsrs	r2, r2, r3
  1524 003a 0F23     		movs	r3, #15
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 80
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 80
 
 
  1525 003c FB18     		adds	r3, r7, r3
@@ -4798,7 +4798,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1563 0002 82B0     		sub	sp, sp, #8
  1564              		.cfi_def_cfa_offset 16
  1565 0004 00AF     		add	r7, sp, #0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 81
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 81
 
 
  1566              		.cfi_def_cfa_register 7
@@ -4858,7 +4858,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1602              		.cfi_startproc
  1603              		@ args = 0, pretend = 0, frame = 8
  1604              		@ frame_needed = 1, uses_anonymous_args = 0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 82
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 82
 
 
  1605 0000 80B5     		push	{r7, lr}
@@ -4918,7 +4918,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3010:Generated_Source\PSoC4/CyLib.c **** *   Disables the specified interrupt number.
 3011:Generated_Source\PSoC4/CyLib.c **** *
 3012:Generated_Source\PSoC4/CyLib.c **** *   \param number: Valid range [0-31].  Interrupt number.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 83
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 83
 
 
 3013:Generated_Source\PSoC4/CyLib.c **** *
@@ -4978,7 +4978,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3021:Generated_Source\PSoC4/CyLib.c **** * Function Name: CyIntSetPending
 3022:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
 3023:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 84
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 84
 
 
 3024:Generated_Source\PSoC4/CyLib.c **** *  Forces the specified interrupt number to be pending.
@@ -5038,7 +5038,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1741              	.LFB30:
 3033:Generated_Source\PSoC4/CyLib.c **** 
 3034:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 85
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 85
 
 
 3035:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
@@ -5098,7 +5098,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1783              		.code	16
  1784              		.thumb_func
  1785              		.type	CyHalt, %function
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 86
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 86
 
 
  1786              	CyHalt:
@@ -5158,7 +5158,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1814              		@ sp needed
  1815 0014 80BD     		pop	{r7, pc}
  1816              		.cfi_endproc
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 87
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 87
 
 
  1817              	.LFE31:
@@ -5218,7 +5218,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  1852 0018 80BD     		pop	{r7, pc}
  1853              	.L112:
  1854 001a C046     		.align	2
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 88
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 88
 
 
  1855              	.L111:
@@ -5278,7 +5278,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3111:Generated_Source\PSoC4/CyLib.c ****         milliseconds -= CY_DELAY_MS_OVERFLOW;
  1890              		.loc 1 3111 0
  1891 0014 7B68     		ldr	r3, [r7, #4]
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 89
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 89
 
 
  1892 0016 0B4A     		ldr	r2, .L116+4
@@ -5338,7 +5338,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3124:Generated_Source\PSoC4/CyLib.c **** *
 3125:Generated_Source\PSoC4/CyLib.c **** *******************************************************************************/
 3126:Generated_Source\PSoC4/CyLib.c **** void CyDelayUs(uint16 microseconds)
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 90
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 90
 
 
 3127:Generated_Source\PSoC4/CyLib.c **** {
@@ -5398,7 +5398,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3136:Generated_Source\PSoC4/CyLib.c **** *
 3137:Generated_Source\PSoC4/CyLib.c **** *  \param freq: Frequency of bus clock in Hertz.
 3138:Generated_Source\PSoC4/CyLib.c **** *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 91
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 91
 
 
 3139:Generated_Source\PSoC4/CyLib.c **** *******************************************************************************/
@@ -5458,7 +5458,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3152:Generated_Source\PSoC4/CyLib.c ****     cydelayFreqKhz = (cydelayFreqHz + CY_DELAY_1K_MINUS_1_THRESHOLD) / CY_DELAY_1K_THRESHOLD;
  2019              		.loc 1 3152 0
  2020 0036 0B4B     		ldr	r3, .L124
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 92
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 92
 
 
  2021 0038 1B68     		ldr	r3, [r3]
@@ -5518,7 +5518,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3162:Generated_Source\PSoC4/CyLib.c **** *  every 1 ms and enables the interrupt.
 3163:Generated_Source\PSoC4/CyLib.c **** *
 3164:Generated_Source\PSoC4/CyLib.c **** *  There are components (LIN, CapSense Gesture) that relies on the default
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 93
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 93
 
 
 3165:Generated_Source\PSoC4/CyLib.c **** *  interval (1 ms). And that changing the interval will negatively impact
@@ -5578,7 +5578,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2103              		.align	2
  2104              		.global	CySysTickInit
  2105              		.code	16
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 94
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 94
 
 
  2106              		.thumb_func
@@ -5638,7 +5638,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2133              		.loc 1 3205 0 discriminator 3
  2134 0016 7B68     		ldr	r3, [r7, #4]
  2135 0018 0133     		adds	r3, r3, #1
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 95
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 95
 
 
  2136 001a 7B60     		str	r3, [r7, #4]
@@ -5698,7 +5698,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2178              		.align	2
  2179              		.global	CySysTickEnable
  2180              		.code	16
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 96
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 96
 
 
  2181              		.thumb_func
@@ -5758,7 +5758,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2218              		.global	CySysTickStop
  2219              		.code	16
  2220              		.thumb_func
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 97
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 97
 
 
  2221              		.type	CySysTickStop, %function
@@ -5818,7 +5818,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2259              	CySysTickEnableInterrupt:
  2260              	.LFB40:
 3252:Generated_Source\PSoC4/CyLib.c **** 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 98
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 98
 
 
 3253:Generated_Source\PSoC4/CyLib.c **** 
@@ -5878,7 +5878,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3270:Generated_Source\PSoC4/CyLib.c **** /*******************************************************************************
 3271:Generated_Source\PSoC4/CyLib.c **** * Function Name: CySysTickDisableInterrupt
 3272:Generated_Source\PSoC4/CyLib.c **** ****************************************************************************//**
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 99
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 99
 
 
 3273:Generated_Source\PSoC4/CyLib.c **** *
@@ -5938,7 +5938,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3290:Generated_Source\PSoC4/CyLib.c **** *  Sets value the counter is set to on startup and after it reaches zero. This
 3291:Generated_Source\PSoC4/CyLib.c **** *  function do not change or reset current sysTick counter value, so it should
 3292:Generated_Source\PSoC4/CyLib.c **** *  be cleared using CySysTickClear() API.
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 100
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 100
 
 
 3293:Generated_Source\PSoC4/CyLib.c **** *
@@ -5998,7 +5998,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3307:Generated_Source\PSoC4/CyLib.c **** *  Gets value the counter is set to on startup and after it reaches zero.
 3308:Generated_Source\PSoC4/CyLib.c **** *
 3309:Generated_Source\PSoC4/CyLib.c **** * \return
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 101
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 101
 
 
 3310:Generated_Source\PSoC4/CyLib.c **** *  Counter reset value.
@@ -6058,7 +6058,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3329:Generated_Source\PSoC4/CyLib.c **** uint32 CySysTickGetValue(void)
 3330:Generated_Source\PSoC4/CyLib.c **** {
  2410              		.loc 1 3330 0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 102
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 102
 
 
  2411              		.cfi_startproc
@@ -6118,7 +6118,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3351:Generated_Source\PSoC4/CyLib.c ****     *  The function is not available on PSoC 4000, PSoC 4100, and PSoC 42000
 3352:Generated_Source\PSoC4/CyLib.c ****     *  devices. The SysTick timer clocked by the System clock on these devices.
 3353:Generated_Source\PSoC4/CyLib.c ****     *
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 103
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 103
 
 
 3354:Generated_Source\PSoC4/CyLib.c ****     *  \param clockSource Clock source for SysTick counter
@@ -6178,7 +6178,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2480              		.loc 1 3371 0
  2481 0028 C046     		nop
  2482 002a BD46     		mov	sp, r7
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 104
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 104
 
 
  2483 002c 02B0     		add	sp, sp, #8
@@ -6238,7 +6238,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2519 0010 BD46     		mov	sp, r7
  2520              		@ sp needed
  2521 0012 80BD     		pop	{r7, pc}
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 105
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 105
 
 
  2522              	.L167:
@@ -6298,7 +6298,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2553              		.loc 1 3412 0
  2554 000e 1800     		movs	r0, r3
  2555 0010 BD46     		mov	sp, r7
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 106
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 106
 
 
  2556              		@ sp needed
@@ -6358,7 +6358,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2597              	.LFE48:
  2598              		.size	CySysTickClear, .-CySysTickClear
  2599              		.section	.text.CySysTickSetCallback,"ax",%progbits
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 107
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 107
 
 
  2600              		.align	2
@@ -6418,7 +6418,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3459:Generated_Source\PSoC4/CyLib.c ****     cySysTickCallback retVal;
 3460:Generated_Source\PSoC4/CyLib.c **** 
 3461:Generated_Source\PSoC4/CyLib.c ****     retVal = CySysTickCallbacks[number];
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 108
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 108
 
 
  2621              		.loc 1 3461 0
@@ -6478,7 +6478,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3481:Generated_Source\PSoC4/CyLib.c **** cySysTickCallback CySysTickGetCallback(uint32 number)
 3482:Generated_Source\PSoC4/CyLib.c **** {
  2656              		.loc 1 3482 0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 109
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 109
 
 
  2657              		.cfi_startproc
@@ -6538,7 +6538,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2698 0000 80B5     		push	{r7, lr}
  2699              		.cfi_def_cfa_offset 8
  2700              		.cfi_offset 7, -8
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 110
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 110
 
 
  2701              		.cfi_offset 14, -4
@@ -6598,7 +6598,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
 3509:Generated_Source\PSoC4/CyLib.c **** }
  2740              		.loc 1 3509 0 is_stmt 1
  2741 0038 C046     		nop
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 111
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 111
 
 
  2742 003a BD46     		mov	sp, r7
@@ -6658,7 +6658,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2776 000a 1B78     		ldrb	r3, [r3]
  2777 000c DBB2     		uxtb	r3, r3
  2778 000e 1A00     		movs	r2, r3
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 112
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 112
 
 
  2779 0010 7B68     		ldr	r3, [r7, #4]
@@ -6718,7 +6718,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2827 0066 1268     		ldr	r2, [r2]
  2828 0068 0A43     		orrs	r2, r1
  2829 006a 1A60     		str	r2, [r3]
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 113
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 113
 
 
 3536:Generated_Source\PSoC4/CyLib.c ****     uniqueId[1u] |= ((uint32)(* (reg8 *) CYREG_SFLASH_DIE_SORT  ) << 16u);
@@ -6778,7 +6778,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2870 00bc 7FF1FF0F 		.word	268431743
  2871              		.cfi_endproc
  2872              	.LFE52:
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 114
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 114
 
 
  2873              		.size	CyGetUniqueId, .-CyGetUniqueId
@@ -6838,7 +6838,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2927 0060 696E7400 		.ascii	"int\000"
  2928 0064 02       		.uleb128 0x2
  2929 0065 04       		.byte	0x4
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 115
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 115
 
 
  2930 0066 07       		.byte	0x7
@@ -6898,7 +6898,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  2984 00df 04       		.byte	0x4
  2985 00e0 E4000000 		.4byte	0xe4
  2986 00e4 07       		.uleb128 0x7
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 116
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 116
 
 
  2987 00e5 02       		.uleb128 0x2
@@ -6958,7 +6958,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3041 0155 0B       		.uleb128 0xb
  3042 0156 C5060000 		.4byte	.LASF25
  3043 015a 01       		.byte	0x1
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 117
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 117
 
 
  3044 015b 4B02     		.2byte	0x24b
@@ -7018,7 +7018,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3098 01ca F702     		.2byte	0x2f7
  3099 01cc 00000000 		.4byte	.LFB7
  3100 01d0 48000000 		.4byte	.LFE7-.LFB7
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 118
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 118
 
 
  3101 01d4 01       		.uleb128 0x1
@@ -7078,7 +7078,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3155 023d F8000000 		.4byte	.LASF24
  3156 0241 01       		.byte	0x1
  3157 0242 4503     		.2byte	0x345
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 119
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 119
 
 
  3158 0244 6B000000 		.4byte	0x6b
@@ -7138,7 +7138,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3212 02b7 00000000 		.4byte	.LFB10
  3213 02bb 30000000 		.4byte	.LFE10-.LFB10
  3214 02bf 01       		.uleb128 0x1
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 120
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 120
 
 
  3215 02c0 9C       		.byte	0x9c
@@ -7198,7 +7198,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3269 0332 46030000 		.4byte	0x346
  3270 0336 0A       		.uleb128 0xa
  3271 0337 BE040000 		.4byte	.LASF46
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 121
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 121
 
 
  3272 033b 01       		.byte	0x1
@@ -7258,7 +7258,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3326 03b1 83000000 		.4byte	0x83
  3327 03b5 02       		.uleb128 0x2
  3328 03b6 91       		.byte	0x91
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 122
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 122
 
 
  3329 03b7 74       		.sleb128 -12
@@ -7318,7 +7318,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3383 042f 02       		.uleb128 0x2
  3384 0430 91       		.byte	0x91
  3385 0431 6F       		.sleb128 -17
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 123
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 123
 
 
  3386 0432 0A       		.uleb128 0xa
@@ -7378,7 +7378,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3440 049e 00       		.byte	0
  3441 049f 0D       		.uleb128 0xd
  3442 04a0 D3020000 		.4byte	.LASF61
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 124
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 124
 
 
  3443 04a4 01       		.byte	0x1
@@ -7438,7 +7438,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3497 0516 5B0B     		.2byte	0xb5b
  3498 0518 6B000000 		.4byte	0x6b
  3499 051c 02       		.uleb128 0x2
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 125
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 125
 
 
  3500 051d 91       		.byte	0x91
@@ -7498,7 +7498,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3554 0586 01       		.byte	0x1
  3555 0587 720B     		.2byte	0xb72
  3556 0589 83000000 		.4byte	0x83
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 126
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 126
 
 
  3557 058d 02       		.uleb128 0x2
@@ -7558,7 +7558,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3611 05fc 00000000 		.4byte	.LFB27
  3612 0600 30000000 		.4byte	.LFE27-.LFB27
  3613 0604 01       		.uleb128 0x1
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 127
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 127
 
 
  3614 0605 9C       		.byte	0x9c
@@ -7618,7 +7618,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3668 0677 9C       		.byte	0x9c
  3669 0678 8C060000 		.4byte	0x68c
  3670 067c 0A       		.uleb128 0xa
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 128
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 128
 
 
  3671 067d E2020000 		.4byte	.LASF56
@@ -7678,7 +7678,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3725 06ef 01       		.byte	0x1
  3726 06f0 360C     		.2byte	0xc36
  3727 06f2 00000000 		.4byte	.LFB34
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 129
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 129
 
 
  3728 06f6 28000000 		.4byte	.LFE34-.LFB34
@@ -7738,7 +7738,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3782 0769 91       		.byte	0x91
  3783 076a 74       		.sleb128 -12
  3784 076b 00       		.byte	0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 130
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 130
 
 
  3785 076c 13       		.uleb128 0x13
@@ -7798,7 +7798,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3839 07e2 83000000 		.4byte	0x83
  3840 07e6 00000000 		.4byte	.LFB43
  3841 07ea 18000000 		.4byte	.LFE43-.LFB43
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 131
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 131
 
 
  3842 07ee 01       		.uleb128 0x1
@@ -7858,7 +7858,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3896 0869 9C       		.byte	0x9c
  3897 086a 11       		.uleb128 0x11
  3898 086b 6A050000 		.4byte	.LASF95
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 132
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 132
 
 
  3899 086f 01       		.byte	0x1
@@ -7918,7 +7918,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  3953 08e1 01       		.byte	0x1
  3954 08e2 A60D     		.2byte	0xda6
  3955 08e4 00000000 		.4byte	.LFB51
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 133
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 133
 
 
  3956 08e8 44000000 		.4byte	.LFE51-.LFB51
@@ -7978,7 +7978,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4010 0958 05       		.uleb128 0x5
  4011 0959 03       		.byte	0x3
  4012 095a 00000000 		.4byte	cydelayFreqHz
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 134
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 134
 
 
  4013 095e 17       		.uleb128 0x17
@@ -8038,7 +8038,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4067 09d3 58       		.byte	0x58
  4068 09d4 83000000 		.4byte	0x83
  4069 09d8 05       		.uleb128 0x5
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 135
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 135
 
 
  4070 09d9 03       		.byte	0x3
@@ -8098,7 +8098,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4124 0031 05       		.uleb128 0x5
  4125 0032 49       		.uleb128 0x49
  4126 0033 13       		.uleb128 0x13
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 136
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 136
 
 
  4127 0034 00       		.byte	0
@@ -8158,7 +8158,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4181 006b 0E       		.uleb128 0xe
  4182 006c 3A       		.uleb128 0x3a
  4183 006d 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 137
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 137
 
 
  4184 006e 3B       		.uleb128 0x3b
@@ -8218,7 +8218,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4238 00a5 0B       		.uleb128 0xb
  4239 00a6 3B       		.uleb128 0x3b
  4240 00a7 05       		.uleb128 0x5
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 138
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 138
 
 
  4241 00a8 27       		.uleb128 0x27
@@ -8278,7 +8278,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4295 00e0 13       		.uleb128 0x13
  4296 00e1 2F       		.uleb128 0x2f
  4297 00e2 0B       		.uleb128 0xb
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 139
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 139
 
 
  4298 00e3 00       		.byte	0
@@ -8338,7 +8338,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4352 011b 00       		.byte	0
  4353 011c 3F       		.uleb128 0x3f
  4354 011d 19       		.uleb128 0x19
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 140
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 140
 
 
  4355 011e 03       		.uleb128 0x3
@@ -8398,7 +8398,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4409 0156 02       		.uleb128 0x2
  4410 0157 18       		.uleb128 0x18
  4411 0158 00       		.byte	0
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 141
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 141
 
 
  4412 0159 00       		.byte	0
@@ -8458,7 +8458,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4466 0190 00       		.byte	0
  4467 0191 00       		.byte	0
  4468 0192 18       		.uleb128 0x18
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 142
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 142
 
 
  4469 0193 26       		.uleb128 0x26
@@ -8518,7 +8518,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4523 00ac 34000000 		.4byte	.LFE21-.LFB21
  4524 00b0 00000000 		.4byte	.LFB22
  4525 00b4 4C000000 		.4byte	.LFE22-.LFB22
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 143
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 143
 
 
  4526 00b8 00000000 		.4byte	.LFB23
@@ -8578,7 +8578,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4580 0190 00000000 		.4byte	.LFB50
  4581 0194 1C000000 		.4byte	.LFE50-.LFB50
  4582 0198 00000000 		.4byte	.LFB51
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 144
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 144
 
 
  4583 019c 44000000 		.4byte	.LFE51-.LFB51
@@ -8638,7 +8638,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4637 00bc 58000000 		.4byte	.LFE25
  4638 00c0 00000000 		.4byte	.LFB26
  4639 00c4 2C000000 		.4byte	.LFE26
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 145
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 145
 
 
  4640 00c8 00000000 		.4byte	.LFB27
@@ -8698,7 +8698,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4694              		.section	.debug_line,"",%progbits
  4695              	.Ldebug_line0:
  4696 0000 E1040000 		.section	.debug_str,"MS",%progbits,1
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 146
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 146
 
 
  4696      02004D00 
@@ -8758,7 +8758,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4719              	.LASF74:
  4720 0096 4379536F 		.ascii	"CySoftwareReset\000"
  4720      66747761 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 147
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 147
 
 
  4720      72655265 
@@ -8818,7 +8818,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4744 013a 75696E74 		.ascii	"uint8\000"
  4744      3800
  4745              	.LASF103:
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 148
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 148
 
 
  4746 0140 63796465 		.ascii	"cydelayFreqKhz\000"
@@ -8878,7 +8878,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4770 01e0 76616C75 		.ascii	"value\000"
  4770      6500
  4771              	.LASF91:
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 149
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 149
 
 
  4772 01e6 636C6F63 		.ascii	"clockSource\000"
@@ -8938,7 +8938,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4792      73476574 
  4792      52657365 
  4792      74526561 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 150
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 150
 
 
  4792      736F6E00 
@@ -8998,7 +8998,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4812 03a7 43795379 		.ascii	"CySysEnablePumpClock\000"
  4812      73456E61 
  4812      626C6550 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 151
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 151
 
 
  4812      756D7043 
@@ -9058,7 +9058,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4836 0445 43795379 		.ascii	"CySysTickGetValue\000"
  4836      73546963 
  4836      6B476574 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 152
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 152
 
 
  4836      56616C75 
@@ -9118,7 +9118,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4860      7420696E 
  4860      7400
  4861              	.LASF68:
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 153
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 153
 
 
  4862 04e7 4379496E 		.ascii	"CyIntEnable\000"
@@ -9178,7 +9178,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4884      6B43616C 
  4884      6C626163 
  4884      6B7300
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 154
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 154
 
 
  4885              	.LASF100:
@@ -9238,7 +9238,7 @@ ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 1
  4906              	.LASF32:
  4907 0663 64697669 		.ascii	"divider\000"
  4907      64657200 
-ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccnnkLId.s 			page 155
+ARM GAS  C:\Users\Tech\AppData\Local\Temp\ccfHldNt.s 			page 155
 
 
  4908              	.LASF44:

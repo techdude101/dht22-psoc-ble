@@ -32,6 +32,8 @@ void DynamicADVPayloadUpdate(int16_t temperature, uint16_t humidity);
 
 int main (void)
 {
+    uint8_t sleep_counter = 10;
+    
     InitializeSystem();
     
     /* Flash LED on startup */
@@ -46,20 +48,33 @@ int main (void)
         CyBle_ProcessEvents();
         
         uint8_t dht22_data[5] = { 0 };
-        
-        // Read the sensor and store in an array
-        DHT22_Read_Data(dht22_data);
-        
-        // Extract the sensor data from the array
-        int16_t temperatureX100 = DHT22_getTemperatureX100(dht22_data);
-        uint16_t humidityX10 = DHT22_getHumidityX10(dht22_data);
-        
-        DynamicADVPayloadUpdate(temperatureX100, humidityX10);
-        
+
+        // Read the sensor every x seconds
+        if (sleep_counter > 9) {
+            sleep_counter = 0;
+            
+            // Read the sensor and store in an array
+            if (DHT22_Read_Data(dht22_data) != 0) {
+                dht22_data[0] = 9;
+                dht22_data[1] = 9;
+                dht22_data[2] = 9;
+                dht22_data[3] = 9;
+            }
+            
+            // Extract the sensor data from the array
+            int16_t temperatureX100 = DHT22_getTemperatureX100(dht22_data);
+            uint16_t humidityX10 = DHT22_getHumidityX10(dht22_data);
+            
+            // Update the advertized device name
+            DynamicADVPayloadUpdate(temperatureX100, humidityX10);
+        }
+                
         LED_R_Write(LED_OFF);
         
         /* Configure the system in lowest possible power modes during and between BLE ADV events */
         EnterLowPowerMode();
+        
+        sleep_counter += 1;
         
         LED_R_Write(LED_ON);
     }

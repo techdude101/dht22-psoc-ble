@@ -3559,7 +3559,7 @@
   <Group key="Pin2">
     <Group key="5fe22be6-a78b-4939-ad44-8e00c9f7ecd4">
       <Group key="0">
-        <Data key="Port Format" value="0,0" />
+        <Data key="Port Format" value="0,1" />
       </Group>
     </Group>
     <Group key="3899b5dc-effb-43d8-8853-66d82e684bc9">

@@ -10387,13 +10387,13 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  387              	.set DHT22_DQ__0__DR_INV, CYREG_GPIO_PRT0_DR_INV
  388              	.set DHT22_DQ__0__DR_SET, CYREG_GPIO_PRT0_DR_SET
  389              	.set DHT22_DQ__0__HSIOM, CYREG_HSIOM_PORT_SEL0
- 390              	.set DHT22_DQ__0__HSIOM_MASK, 0x0000000F
- 391              	.set DHT22_DQ__0__HSIOM_SHIFT, 0
+ 390              	.set DHT22_DQ__0__HSIOM_MASK, 0x000000F0
+ 391              	.set DHT22_DQ__0__HSIOM_SHIFT, 4
  392              	.set DHT22_DQ__0__INTCFG, CYREG_GPIO_PRT0_INTR_CFG
  393              	.set DHT22_DQ__0__INTR, CYREG_GPIO_PRT0_INTR
  394              	.set DHT22_DQ__0__INTR_CFG, CYREG_GPIO_PRT0_INTR_CFG
  395              	.set DHT22_DQ__0__INTSTAT, CYREG_GPIO_PRT0_INTR
- 396              	.set DHT22_DQ__0__MASK, 0x01
+ 396              	.set DHT22_DQ__0__MASK, 0x02
  397              	.set DHT22_DQ__0__PA__CFG0, CYREG_UDB_PA0_CFG0
  398              	.set DHT22_DQ__0__PA__CFG1, CYREG_UDB_PA0_CFG1
  399              	.set DHT22_DQ__0__PA__CFG10, CYREG_UDB_PA0_CFG10
@@ -10413,7 +10413,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  413              	.set DHT22_DQ__0__PC2, CYREG_GPIO_PRT0_PC2
  414              	.set DHT22_DQ__0__PORT, 0
  415              	.set DHT22_DQ__0__PS, CYREG_GPIO_PRT0_PS
- 416              	.set DHT22_DQ__0__SHIFT, 0
+ 416              	.set DHT22_DQ__0__SHIFT, 1
  417              	.set DHT22_DQ__DR, CYREG_GPIO_PRT0_DR
  418              	.set DHT22_DQ__DR_CLR, CYREG_GPIO_PRT0_DR_CLR
  419              	.set DHT22_DQ__DR_INV, CYREG_GPIO_PRT0_DR_INV
@@ -10422,7 +10422,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  422              	.set DHT22_DQ__INTR, CYREG_GPIO_PRT0_INTR
  423              	.set DHT22_DQ__INTR_CFG, CYREG_GPIO_PRT0_INTR_CFG
  424              	.set DHT22_DQ__INTSTAT, CYREG_GPIO_PRT0_INTR
- 425              	.set DHT22_DQ__MASK, 0x01
+ 425              	.set DHT22_DQ__MASK, 0x02
  426              	.set DHT22_DQ__PA__CFG0, CYREG_UDB_PA0_CFG0
  427              	.set DHT22_DQ__PA__CFG1, CYREG_UDB_PA0_CFG1
  428              	.set DHT22_DQ__PA__CFG10, CYREG_UDB_PA0_CFG10
@@ -10445,7 +10445,7 @@ ARM GAS  Generated_Source\PSoC4\CyBootAsmGnu.s 			page 1
  442              	.set DHT22_DQ__PC2, CYREG_GPIO_PRT0_PC2
  443              	.set DHT22_DQ__PORT, 0
  444              	.set DHT22_DQ__PS, CYREG_GPIO_PRT0_PS
- 445              	.set DHT22_DQ__SHIFT, 0
+ 445              	.set DHT22_DQ__SHIFT, 1
  446              	
  447              	/* Miscellaneous */
  448              	.set CYDEV_BCLK__HFCLK__HZ, 48000000

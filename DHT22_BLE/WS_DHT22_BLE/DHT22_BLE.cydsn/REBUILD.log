@@ -1,4 +1,4 @@
---------------- Rebuild Started: 07/18/2021 15:39:16 Project: DHT22_BLE, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
+--------------- Rebuild Started: 07/18/2021 16:37:11 Project: DHT22_BLE, Configuration: ARM GCC 5.4-2016-q2-update Debug ---------------
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\main.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\dht22.o"
 Deleting file ".\CortexM0\ARM_GCC_541\Debug\cyfitter_cfg.o"
@@ -81,6 +81,6 @@ No ELF section .cychecksum found, creating one
 Application checksum calculated and stored in ELF section .cychecksum
 Checksum calculated and stored in ELF section .cymeta
 cyelftool.exe -S "C:\code\PSoC BLE\dht22-psoc-ble\DHT22_BLE\WS_DHT22_BLE\DHT22_BLE.cydsn\CortexM0\ARM_GCC_541\Debug\DHT22_BLE.elf"
-Flash used: 86418 of 131072 bytes (65.9%).
+Flash used: 84614 of 131072 bytes (64.6%).
 SRAM used: 10912 of 16384 bytes (66.6%). Stack: 2048 bytes. Heap: 128 bytes.
---------------- Rebuild Succeeded: 07/18/2021 15:39:27 ---------------
+--------------- Rebuild Succeeded: 07/18/2021 16:37:21 ---------------

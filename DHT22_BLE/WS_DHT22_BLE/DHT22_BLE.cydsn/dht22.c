@@ -136,7 +136,7 @@ uint8_t DHT22_Read_Byte(void)
     dat = 0;
 	for (uint8_t i = 0; i < 8; i++) 
 	{
-   		dat <<= 1; 
+   		dat <<= (1u); 
 	    dat |= DHT22_Read_Bit();
     }						    
     return dat;
@@ -159,7 +159,7 @@ uint8_t DHT22_Read_Byte(void)
 *******************************************************************************/
 uint8_t DHT22_Read_Data(uint8_t *data)    
 {        
- 	uint8_t buf[5];
+ 	volatile uint8_t buf[5];
 	
     DHT22_Reset();
 	
@@ -219,6 +219,7 @@ uint8_t DHT22_Init(void)
 *
 *******************************************************************************/
 int16_t DHT22_getTemperatureX100(uint8_t* data) {
+    
     return ((data[3] * 10) + data[2]);
 }
 

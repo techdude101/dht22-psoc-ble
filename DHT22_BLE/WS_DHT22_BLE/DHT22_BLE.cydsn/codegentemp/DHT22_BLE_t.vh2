@@ -1,5 +1,5 @@
 -- Project:   C:\code\PSoC BLE\dht22-psoc-ble\DHT22_BLE\WS_DHT22_BLE\DHT22_BLE.cydsn\DHT22_BLE.cyprj
--- Generated: 07/18/2021 15:43:56
+-- Generated: 07/18/2021 16:37:16
 -- PSoC Creator  4.4
 
 ENTITY DHT22_BLE IS
@@ -51,7 +51,7 @@ ARCHITECTURE __DEFAULT__ OF DHT22_BLE IS
     ATTRIBUTE lib_model OF LED_G(0) : LABEL IS "iocell2";
     ATTRIBUTE Location OF LED_G(0) : LABEL IS "P3[6]";
     ATTRIBUTE lib_model OF DHT22_DQ(0) : LABEL IS "iocell3";
-    ATTRIBUTE Location OF DHT22_DQ(0) : LABEL IS "P0[0]";
+    ATTRIBUTE Location OF DHT22_DQ(0) : LABEL IS "P0[1]";
     ATTRIBUTE Location OF \BLE:cy_m0s8_ble\ : LABEL IS "F(BLE,0)";
     ATTRIBUTE Location OF \BLE:bless_isr\ : LABEL IS "[IntrContainer=(0)][IntrId=(12)]";
     COMPONENT interrupt

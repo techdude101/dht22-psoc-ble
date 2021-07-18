@@ -1,5 +1,5 @@
 -- Project:   DHT22_BLE
--- Generated: 07/18/2021 15:43:55
+-- Generated: 07/18/2021 16:37:15
 -- PSoC Creator  4.4
 
 ENTITY DHT22_BLE IS
@@ -50,7 +50,7 @@ ARCHITECTURE __DEFAULT__ OF DHT22_BLE IS
     ATTRIBUTE lib_model OF LED_G(0) : LABEL IS "iocell2";
     ATTRIBUTE Location OF LED_G(0) : LABEL IS "P3[6]";
     ATTRIBUTE lib_model OF DHT22_DQ(0) : LABEL IS "iocell3";
-    ATTRIBUTE Location OF DHT22_DQ(0) : LABEL IS "P0[0]";
+    ATTRIBUTE Location OF DHT22_DQ(0) : LABEL IS "P0[1]";
     COMPONENT interrupt
         PORT (
             interrupt : IN std_ulogic;
